@@ -66,7 +66,7 @@ Each screen defines:
 - `Intent`
 - `Navigation`
 
-Shared `ViewModel`s are exposed to Android and SwiftUI via Decompose ViewModelComponents and then are wrapped in SwiftUI for Swift type safety.
+Shared `ViewModel`s are exposed to Android and SwiftUI via Decompose ViewModelComponents(for easy migration away from Decompose if needed) and then are wrapped in SwiftUI for Swift type safety.
 
 ### Navigation
 
