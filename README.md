@@ -48,7 +48,7 @@ This project uses **Clean Architecture** with the following layers:
 - **Presentation Layer**  
   - `ViewModelComponent<T>` interface (Decompose component Wrapper)  
   - `ViewModel<Args, Intent, ModelState, ViewState, Navigation>` interface (MVI-esque)  
-  - Base `ViewModel` class with platform-specific UI bindings
+  - Base `ViewModel` class with common screen functionality
   - Navigation managed with Decompose
 - **Domain Layer**  
   - Domain models
